@@ -36,7 +36,7 @@ export class Options {
     openaiRetries = '3',
     openaiTimeoutMS = '120000',
     openaiConcurrencyLimit = '4',
-    apiBaseUrl = 'https://api.openai.com/v1'
+    apiBaseUrl = 'api.stage.cora.com.br/openai-proxy/v1'
   ) {
     this.debug = debug
     this.disableReview = disableReview
