@@ -4297,7 +4297,7 @@ __webpack_async_result__();
 
 
 
-const token = (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)('token') || process.env.GITHUB_TOKEN;
+const token = (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)('token');
 const RetryAndThrottlingOctokit = _octokit_action__WEBPACK_IMPORTED_MODULE_1__/* .Octokit.plugin */ .v.plugin(_octokit_plugin_throttling__WEBPACK_IMPORTED_MODULE_2__/* .throttling */ .O, _octokit_plugin_retry__WEBPACK_IMPORTED_MODULE_3__/* .retry */ .XD);
 const octokit = new RetryAndThrottlingOctokit({
     auth: `token ${token}`,
